@@ -7,3 +7,7 @@ coverage/
 test-results/
 playwright-report/
 *.log
+.omx-state-locks/
+.omx-state-locks.identity.json
+.serena/
+*.tsbuildinfo
