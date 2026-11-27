@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "noEmit": true
+  },
+  "include": ["backend/**/*.ts", "shared/**/*.ts", "tests/**/*.ts", "scripts/**/*.ts", "playwright.config.ts", "vitest.config.ts"]
+}

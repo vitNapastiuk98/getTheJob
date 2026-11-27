@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "noEmit": false, "outDir": "dist", "rootDir": ".", "sourceMap": true },
+  "include": ["backend/**/*.ts", "shared/**/*.ts"],
+  "exclude": ["tests", "frontend"]
+}
